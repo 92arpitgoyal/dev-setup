@@ -22,4 +22,4 @@ We wanted there to be a single place where new developers could go to find these
 ## Select OS to continue:
 
 * [MacOS](mac.md)
-* [windows](windows.md)
+* [Windows](windows.md)
