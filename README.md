@@ -23,3 +23,4 @@ We wanted there to be a single place where new developers could go to find these
 
 * [MacOS](mac.md)
 * [Windows](windows.md)
+* [*nix](nix.md)
