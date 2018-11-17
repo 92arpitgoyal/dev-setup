@@ -1,5 +1,7 @@
 # macOS For Development
 
+Basic dev setup for macOS users
+
 ## Basic environment:
 
 #### [Homebrew](https://brew.sh/)
