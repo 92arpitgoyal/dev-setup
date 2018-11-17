@@ -16,6 +16,8 @@ Homebrew formulae are simple Ruby scripts and Ruby comes pre-installed with macO
 
 You'll be using Homebrew or brew for most of the installations from now on.
 
+***
+
 #### [Git](http://git-scm.com/)
 
 What's a developer without [Git](http://git-scm.com/)? To install, simply run:
@@ -35,6 +37,8 @@ Next, we'll define your Git user (should be the same name and email you use for 
 
 They will get added to your `.gitconfig` file.
 
+***
+
 ## Terminal:
 
 #### [iterm2](https://www.iterm2.com/)
@@ -51,6 +55,8 @@ To install iterm2 with brew, paste this at a Terminal prompt
 brew cask install iterm2
 ```
 
+***
+
 #### [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) (Optional but highly recommended)
 
 "Your terminal never felt this good before."
@@ -64,6 +70,10 @@ To install Oh My Zsh, paste this at a Terminal prompt
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
+***
+
+## Node.js and NPM
 
 #### [Node.js](https://nodejs.org)
 
