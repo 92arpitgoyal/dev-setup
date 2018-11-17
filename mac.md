@@ -4,7 +4,7 @@ Basic dev setup for macOS users
 
 ## Basic environment:
 
-#### [Homebrew](https://brew.sh/)
+### [Homebrew](https://brew.sh/)
 
 "Homebrew installs the stuff you need that Apple didn’t."
 
@@ -18,7 +18,7 @@ You'll be using Homebrew or brew for most of the installations from now on.
 
 ***
 
-#### [Git](http://git-scm.com/)
+### [Git](http://git-scm.com/)
 
 What's a developer without [Git](http://git-scm.com/)? To install, simply run:
 
@@ -41,7 +41,7 @@ They will get added to your `.gitconfig` file.
 
 ## Terminal:
 
-#### [iterm2](https://www.iterm2.com/)
+### [iterm2](https://www.iterm2.com/)
 
 "a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.8 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted."
 
@@ -57,7 +57,7 @@ brew cask install iterm2
 
 ***
 
-#### [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) (Optional but highly recommended)
+### [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) (Optional but highly recommended)
 
 "Your terminal never felt this good before."
 
@@ -75,11 +75,11 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 ## Node.js and NPM
 
-#### [Node.js](https://nodejs.org)
+### [Node.js](https://nodejs.org)
 
 Node.js® — a version of Chrome’s V8 JavaScript runtime engine — which makes it possible to run JavaScript on the server-side.
 
-Node.js is also used for deploying tools that make developing web sites simpler. For example, by installing Node.js on your desktop machine, you can quickly convert CoffeeScript to JavaScript, SASS to CSS, and shrink the size of your HTML, JavaScript and graphic files. Using NPM — a tool that makes installing and managing Node modules — it’s quite easy to add many useful tools to your web development toolkit.
+Node.js is also used for deploying tools that make developing web sites simpler. For example, by installing Node.js on your desktop machine, you can quickly convert CoffeeScript to JavaScript, SASS to CSS, and shrink the size of your HTML, JavaScript and graphic files.
 
 ```
 brew install node
@@ -91,8 +91,11 @@ When done, to test that it installed fine you can run:
 node -v
 ```
 
-npm is distributed with Node.js which means that when you intall Node.js, you automatically get npm installed on your computer. To see if NPM is installed, type `npm -v` in Terminal. This should print NPM’s version number so you’ll see something like this 5.6.0
+### [NPM](https://npmjs.com)
 
+NPM — a tool that makes installing and managing Node modules — it’s quite easy to add many useful tools to your web development toolkit.
+
+npm is distributed with Node.js which means that when you intall Node.js, you automatically get npm installed on your computer. To see if NPM is installed, type `npm -v` in Terminal. This should print NPM’s version number so you’ll see something like this 5.6.0
 
 ```
 npm -v
