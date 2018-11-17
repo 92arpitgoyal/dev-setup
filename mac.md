@@ -91,6 +91,8 @@ When done, to test that it installed fine you can run:
 node -v
 ```
 
+***
+
 ### [NPM](https://npmjs.com)
 
 NPM — a tool that makes installing and managing Node modules — it’s quite easy to add many useful tools to your web development toolkit.
@@ -100,3 +102,11 @@ npm is distributed with Node.js which means that when you intall Node.js, you au
 ```
 npm -v
 ```
+
+***
+
+## Advanced setup
+
+Setup for other environments like [Python](https://www.python.org), [C++](http://www.cplusplus.com) and [Ruby](https://www.ruby-lang.org).
+
+[External link](https://sourabhbajaj.com/mac-setup) or it's [repo](https://github.com/sb2nov/mac-setup)
