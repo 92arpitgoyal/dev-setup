@@ -15,9 +15,10 @@ We wanted there to be a single place where new developers could go to find these
 
 ## Checklist
 
-+ [ ] **Terminal setup**
-+ [ ] **Text Editor**
-+ [ ] **Git & GitHub**
++ [ ] **Package manager**: friendly way to handle Software/Environments
++ [ ] **Terminal setup**: command line interface to the underlying operating system
++ [ ] **Text Editor**: program that allows a user to edit text
++ [ ] **Git & GitHub**: version-control system for tracking changes in computer files(code)
 
 ## Select OS to continue:
 
