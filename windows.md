@@ -1,19 +1,24 @@
-## Windows Setup For Cross-Platform Development
+# Windows Setup
 
-Note: I use Parallels Desktop to use Windows 10 on Mac. Please feel free to use your own virtual machine software.
-
-### Package Management
+## Package Manager
 
 * [Chocolatey](https://chocolatey.org): "The sane way to manage software on Windows"
 
-### Terminals, shells, and files
+We will be installing most of the tools in this guide using CLI via Chocolatey's packages, they understand versioning and dependencies.
 
-#### To install
+Open `cmd` as administrator and type the following command to install Chocolatey:
 
-* [cmder](http://cmder.net/): "a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start."
-* [Gow](https://github.com/bmatzelle/gow): "The lightweight alternative to Cygwin"
-* [posh-git](https://github.com/dahlbyk/posh-git)
-* Cygwin
+```
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
+
+For other options and troubleshooting try [this](https://chocolatey.org/install) and you can explore all the packages available with Chocolatey [here](https://chocolatey.org/packages)
+
+## Terminal
+
+* [**cmder**](http://cmder.net/): "a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start."
+* [**Gow**](https://github.com/bmatzelle/gow): "The lightweight alternative to Cygwin"
+* [**posh-git**](https://github.com/dahlbyk/posh-git): "A PowerShell environment for Git"
 
 #### powershell profile
 
