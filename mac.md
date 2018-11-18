@@ -2,7 +2,7 @@
 
 Basic dev setup for macOS users
 
-## Package Manager:
+## Package Manager
 
 ### [Homebrew](https://brew.sh/)
 
@@ -18,7 +18,7 @@ You'll be using Homebrew or brew for most of the installations from now on.
 
 ***
 
-## Version Control:
+## Version Control
 
 ### [Git](http://git-scm.com/)
 
@@ -41,7 +41,7 @@ They will get added to your `.gitconfig` file.
 
 ***
 
-## Terminal:
+## Terminal, shell and modules
 
 ### [iterm2](https://www.iterm2.com/)
 
