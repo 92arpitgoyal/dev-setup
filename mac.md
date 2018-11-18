@@ -2,7 +2,7 @@
 
 Basic dev setup for macOS users
 
-## Basic environment:
+## Package Manager:
 
 ### [Homebrew](https://brew.sh/)
 
@@ -17,6 +17,8 @@ Homebrew formulae are simple Ruby scripts and Ruby comes pre-installed with macO
 You'll be using Homebrew or brew for most of the installations from now on.
 
 ***
+
+## Version Control:
 
 ### [Git](http://git-scm.com/)
 
